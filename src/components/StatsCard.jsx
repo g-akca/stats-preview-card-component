@@ -3,7 +3,7 @@ import StatsDetails from "./StatsDetails";
 
 function StatsCard() {
   return (
-    <section className="w-full rounded-lg overflow-hidden flex flex-col">
+    <section className="w-full rounded-lg overflow-hidden flex flex-col max-w-141">
       <StatsImg />
       <StatsDetails />
     </section>
